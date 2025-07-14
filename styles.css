@@ -1,0 +1,14 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+}
+
+.navigation-bar {
+    grid-column: span 1;
+    border: solid 1px grey;
+}
+
+.task-bar {
+    grid-column: span 4;
+    border: solid 1px grey;
+}
