@@ -1,3 +1,8 @@
+h4, h2, p, button {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
 .main-grid {
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
@@ -16,4 +21,5 @@
 .task-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
 }
