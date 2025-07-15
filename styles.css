@@ -12,3 +12,8 @@
     grid-column: span 4;
     border: solid 1px grey;
 }
+
+.task-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
