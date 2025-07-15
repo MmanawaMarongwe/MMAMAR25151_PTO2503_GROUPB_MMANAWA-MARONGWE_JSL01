@@ -1,25 +1,41 @@
+:root {
+    --main-purple: #635FC7;
+    --hover-purple: #A8A4FF;
+    --black: #000112; 
+    --very-dark-grey: #20212C; 
+    --dark-grey: #2B2C37;
+    --dark-lines: #3E3F4E;
+    --medium-grey: #828FA3;
+    --light-lines: #E4EBFA;
+    --light-grey: #F4F7FD;
+    --white: #FFFFFF;
+    --red: #EA5555;
+    --red-hover: #FF9898;
+}
+
+
 h4, h2, p, button {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-
 .main-grid {
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
+    border: solid 1px var(--light-lines);
 }
 
 .navigation-bar {
     grid-column: span 1;
-    border: solid 1px grey;
 }
 
 .task-bar {
     grid-column: span 4;
-    border: solid 1px grey;
+    border-left: solid 1px var(--light-lines);
 }
 
 .task-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    border-top: solid 1px var(--light-lines);
+    background-color: var(--light-grey);
 }
