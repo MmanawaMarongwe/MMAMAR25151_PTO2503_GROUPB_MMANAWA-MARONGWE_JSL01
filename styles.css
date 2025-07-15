@@ -14,8 +14,21 @@
 }
 
 
-h4, h2, p, button {
+h4, h2, p, button, h1 {
     font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1, h2 {
+    font-size: 40px;
+}
+
+
+img {
+    width: 40px;
+}
+
+.logo {
+    display: flex;
 }
 
 .main-grid {
@@ -26,6 +39,7 @@ h4, h2, p, button {
 
 .navigation-bar {
     grid-column: span 1;
+    margin: 0px 20px 20px 20px;
 }
 
 .task-bar {
@@ -36,6 +50,7 @@ h4, h2, p, button {
 .task-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-top: solid 1px var(--light-lines);
+    border-top: solid 1px var(--light-lines);   
     background-color: var(--light-grey);
+    margin-top: 50px;
 }
