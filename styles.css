@@ -23,12 +23,7 @@ h1, h2 {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-button {
-    background-color: #635FC7;
-    padding: 20px;
-    color: var(--white);
-    box-shadow: none;
-}
+
 
 img {
     width: 40px;
@@ -70,3 +65,13 @@ img {
     padding: 5px 5px 5px 15px;
     border-radius: 8px;
 }
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--main-purple);
+    padding: 20px 20px 20px 50px;
+    border-radius: 8px;
+    border: 1px solid var(--white);
+
+}
+
