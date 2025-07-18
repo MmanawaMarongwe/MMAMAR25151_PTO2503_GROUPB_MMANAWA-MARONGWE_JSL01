@@ -25,8 +25,9 @@ h1, h2 {
 
 h4 {
     font-size: 15px;
-    margin-left: 20px;
+    margin-left: 15px;
     color: var(--medium-grey);
+    letter-spacing: 3px;
 }
 
 img {
