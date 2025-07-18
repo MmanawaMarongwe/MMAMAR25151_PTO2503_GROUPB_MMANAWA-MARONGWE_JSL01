@@ -42,7 +42,21 @@ img {
 
 .navigation-bar {
     grid-column: span 1;
-    margin: 0px 20px 20px 20px;
+    position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+.btn-primary {
+    position: absolute;
+    left: -10%;
+    color: var(--white);
+    background-color: var(--main-purple);
+    padding: 15px 75px;
+    border-radius: 50px;
+    border: 1px solid var(--white);
+
 }
 
 .task-bar {
@@ -66,11 +80,4 @@ img {
     border-radius: 8px;
 }
 
-.btn-primary {
-    color: var(--white);
-    background-color: var(--main-purple);
-    padding: 20px 20px 20px 50px;
-    border-radius: 8px;
-    border: 1px solid var(--white);
 
-}
