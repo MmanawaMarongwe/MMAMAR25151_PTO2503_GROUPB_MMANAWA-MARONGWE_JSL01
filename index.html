@@ -16,7 +16,7 @@
       <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
       <div class="navigation-bar mobile-hidden">
         <nav class="navigation-wrapper">
-          <div>
+          <div class="">
             <div class="logo"><img src="assets/favicon.svg" alt="The Kanban logo"><span><h1>kanban</h1></span></div>
             <h4>ALL BOARDS (1)</h4>
           </div>
@@ -27,7 +27,7 @@
       <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
       <div class="task-bar">
         <header>
-          <div>
+          <div class="task-grid-header">
             <h2>Launch Career</h2>
           </div>
         </header>
@@ -36,8 +36,8 @@
           <main class="task-grid">
             <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
             <div class="task-board">
-              <div>
-                <span></span>
+              <div class="task-board-name">
+                <span class="ball"></span>
                 <h4>TODO</h4>
               </div>
               <!-- Tasks container for TODO -->
@@ -58,8 +58,8 @@
             </div>
             <!-- DOING Column -->
             <div class="task-board">
-              <div>
-                <span></span>
+              <div class="task-board-name">
+                <span class="ball"></span>
                 <h4>DOING</h4>
               </div>
               <!-- Tasks container for DOING -->
@@ -74,8 +74,8 @@
             </div>
             <!-- DONE Column -->
             <div class="task-board">
-              <div>
-                <span></span>
+              <div class="task-board-name">
+                <span class="ball"></span>
                 <h4>DONE</h4>
               </div>
               <!-- Tasks container for DONE -->

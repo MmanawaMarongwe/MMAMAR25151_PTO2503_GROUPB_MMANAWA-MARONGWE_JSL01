@@ -23,6 +23,11 @@ h1, h2 {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+h4 {
+    font-size: 15px;
+    margin-left: 20px;
+    color: var(--medium-grey);
+}
 
 img {
     width: 40px;
@@ -64,6 +69,10 @@ img {
     border-left: solid 1px var(--light-lines)
 }
 
+.task-grid-header {
+    margin-left: 50px;
+}
+
 .task-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -71,6 +80,19 @@ img {
     background-color: var(--light-grey);
     gap: 10px;
     padding: 20px 40px 144px 40px;
+}
+
+.task-board-name {
+    display: flex;
+    align-items: center;
+}
+
+.ball {
+    margin-left: 15px;
+    background-color: #EA5555;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
 
 .task-name {
