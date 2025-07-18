@@ -118,6 +118,18 @@ img {
     margin: 10px;
     padding: 5px 5px 5px 15px;
     border-radius: 8px;
+    box-shadow: 0 6px 12px #364E7E33;
+}
+
+.btn-primary:hover {
+    background-color: var(--hover-purple);
+}
+
+.task-name:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 6px 12px #364E7E66;
+
 }
 
 @media (max-width: 768px) {
@@ -169,7 +181,7 @@ img {
 
 }
 
-@media (min-width: 1023px)and(max-width: 1024px){
+@media (min-width: 1023px) and (max-width: 1024px){
     .main-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
