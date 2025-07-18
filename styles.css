@@ -125,12 +125,6 @@ img {
     background-color: var(--hover-purple);
 }
 
-.task-name:hover {
-    transform: scale(1.05);
-    transition: all 0.2s ease-in-out;
-    box-shadow: 0 6px 12px #364E7E66;
-
-}
 
 @media (max-width: 768px) {
     .main-grid {
