@@ -44,7 +44,7 @@ img {
 }
 
 .main-grid {
-    height: 100%;
+    height: 1024px;
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
     border: solid 1px var(--light-lines);
@@ -54,6 +54,7 @@ img {
     grid-column: span 1;
     position: relative;
     padding-left: 30px;
+    padding-top: 20px;
     box-sizing: border-box;
     overflow: hidden; 
 }
@@ -75,7 +76,8 @@ img {
 }
 
 .task-grid-header {
-    margin-left: 50px;
+    padding-top: 20px;
+    margin-left: 50px    
 }
 
 .task-grid {
@@ -84,7 +86,7 @@ img {
     border-top: solid 1px var(--light-lines);   
     background-color: var(--light-grey);
     gap: 10px;
-    padding: 20px 40px 144px 40px;
+    padding: 20px 40px 563px 40px;
 }
 
 .task-board-name {
@@ -94,7 +96,6 @@ img {
 
 .ball {
     margin-left: 15px;
-    background-color: #EA5555;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -119,4 +120,77 @@ img {
     border-radius: 8px;
 }
 
+@media (max-width: 768px) {
+    .main-grid {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
 
+    .logo {
+        position: static;
+    }
+
+    .navigation-bar {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .hidden {
+        display: none;
+    }
+    
+    .task-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 820px) and (max-width: 1023px) {
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 100%;
+    }
+
+    .navigation-bar {
+        grid-column: span 1;
+    }
+
+    .task-bar {
+        grid-column: span 2;
+    }
+
+    .task-grid {
+        height: 100%;
+    }
+
+}
+
+@media (min-width: 1023px)and(max-width: 1024px){
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 100%;
+    }
+    
+    .navigation-bar {
+        grid-column: span 1;
+    }
+    
+    .task-bar {
+        grid-column: span 2;
+    }
+
+    .btn-primary {
+        left: -10%;
+        padding: 10px 80px;
+    }
+
+    .task-grid {
+        height: 100%;
+    }
+
+}
