@@ -100,6 +100,18 @@ img {
     border-radius: 50%;
 }
 
+.ball-1 {
+        background-color: #49C4E5;
+}
+
+.ball-2 {
+    background-color: #8471F2;
+}
+
+.ball-3 {
+    background-color: #67E2AE;
+}
+
 .task-name {
     background-color: #FFFFFF;
     margin: 10px;
