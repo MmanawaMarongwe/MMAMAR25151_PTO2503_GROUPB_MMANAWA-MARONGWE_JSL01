@@ -19,15 +19,19 @@ h4, h2, p, button, h1 {
 }
 
 h1, h2 {
-    font-size: 40px;
+    font-size: 24px;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 12px;
     margin-left: 15px;
     color: var(--medium-grey);
     letter-spacing: 3px;
+}
+
+p {
+    font-weight: 600;
 }
 
 img {
@@ -49,7 +53,7 @@ img {
 .navigation-bar {
     grid-column: span 1;
     position: relative;
-    padding: 30px;
+    padding-left: 30px;
     box-sizing: border-box;
     overflow: hidden; 
 }
